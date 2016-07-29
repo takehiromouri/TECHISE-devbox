@@ -5,8 +5,8 @@ Make sure you have 1GB or 2GB of free RAM on your computer before proceeding bec
 
 ### The first step is to install Vagrant and VirtualBox on your computer.
 
-Install Vagrant
-Install VirtualBox
+Install Vagrant - https://www.vagrantup.com/downloads.html
+Install VirtualBox - https://www.virtualbox.org/wiki/Downloads
 
 VirtualBox is where your virtual machines will run. They will be headless which means that they will run in the background and you will interact with them over SSH.
 
@@ -19,6 +19,16 @@ vagrant-librarian-chef let's us automatically run chef when we fire up our machi
 `vagrant plugin install vagrant-librarian-chef-nochef`
 
 This can take a while.
+
+# CLoning the Git Repo
+
+In the terminal, run the following command:
+
+`git clone git@github.com:takehiromouri/TECHRISE-devbox.git`
+
+Then avigate to the repository:
+
+`cd TECHRISE-devbox`
 
 
 # Running Vagrant
