@@ -20,7 +20,7 @@ vagrant-librarian-chef let's us automatically run chef when we fire up our machi
 
 This can take a while.
 
-# CLoning the Git Repo
+# Cloning the Git Repo
 
 In the terminal, run the following command:
 
